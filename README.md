@@ -16,6 +16,6 @@ You will also see any lint errors in the console.
 
 ### the project is well structured
 
-the component folder in the src directry holds the individual core components
-the pages folder holds the parent conponent or container that hold all component renthered on each individual page
-the styles folder holds all styles to all components in he project
+#### the component folder in the src directry holds the individual core components
+#### the pages folder holds the parent conponent or container that hold all component renthered on each individual page
+#### the styles folder holds all styles to all components in the project
