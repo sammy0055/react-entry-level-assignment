@@ -1,0 +1,67 @@
+.NavImgContainer {
+  width: 50px;
+  height: 42px;
+}
+
+.NavImgContainer > img {
+  object-fit: contain;
+  width: 100%;
+  height: 42px;
+}
+
+.Bag {
+  position: relative;
+  right: -30px;
+  top: -50px;
+  background-color: green;
+  padding: 1px;
+  border-radius: 40%;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.DropdownContainer {
+  position: absolute;
+  top: 58px;
+  background-color: white;
+  width: 350px;
+  max-height: 90vh;
+  transform: translateX(-90%);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  z-index: 2;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.Total {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px;
+}
+
+.BtnContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 12px;
+}
+
+.TotalBtn {
+  padding: 1em 2em 1em 2em;
+  font-size: 16px;
+  padding-left: 2em;
+  background: white;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.TotalBtn1 {
+  padding: 1em 2em 1em 2em;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 2em;
+  background: lightgreen;
+  color: white;
+  border: 1px solid lightgreen;
+  cursor: pointer;
+}

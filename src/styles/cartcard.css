@@ -1,0 +1,69 @@
+.Cartcontainer {
+  /* background: seagreen; */
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  margin: 12px;
+  height: 20vh;
+}
+
+.Carttext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Horizontal_rule {
+  color: lightgray;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.AttBtn {
+  border: 1px solid gray;
+  padding: 5px;
+  margin-right: 12px;
+}
+
+.AttBtn:hover {
+  opacity: 0.3;
+}
+
+.ImgContainer {
+  display: flex;
+  width: 30%;
+  height: 20vh;
+  /* background-color: red; */
+}
+
+.ImgContainer > img {
+  object-fit: cover;
+  width: 70%;
+  height: 20vh;
+}
+
+.Info_body {
+  background: rgb(245, 245, 242);
+  display: flex;
+  width: 30%;
+}
+
+.info_icon1 {
+  width: 20px;
+}
+
+.Info_bodytext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Rbutton{
+  margin: 12px;
+  padding: 12px;
+  border: none;
+  background-color: rgb(167, 162, 154);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

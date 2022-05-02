@@ -1,0 +1,19 @@
+.Head {
+  background-color: white;
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Navtest:focus {
+  border-color: solid lightgreen;
+  border-bottom: 3px solid gray;
+  border-radius: 5px;
+  color: green;
+}
+
+.Subhead {
+  display: flex;
+  align-items: center;
+}

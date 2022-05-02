@@ -1,0 +1,32 @@
+.Dropdown {
+  background-color: white;
+  position: absolute;
+  top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.Navtest {
+  margin: 12px;
+  cursor: pointer;
+  padding: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nonVisible {
+  display: none;
+}
+
+.DropdownP {
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.DropdownP:hover {
+  color: aliceblue;
+  background-color: green;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
