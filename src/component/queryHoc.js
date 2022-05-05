@@ -60,7 +60,7 @@ export const queryHoc = (WrappedComponent) => {
         });
         setStore(_data?.category);
       }
-    }, [data]);
+    }, [data, setStore]);
     return (
       <>
         <WrappedComponent

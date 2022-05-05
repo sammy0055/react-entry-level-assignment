@@ -121,12 +121,13 @@ class Productpreview extends Component {
               </div>
               <h3>PRICE:</h3>
               {prices?.map((data) => {
-                if (data.currency.symbol === currency)
+                if (data.currency.symbol === currency) {
                   return (
                     <h3 key={data.currency.symbol}>
                       {data.currency.symbol} {data.amount}
                     </h3>
                   );
+                } else return null;
               })}
               <button onClick={this.addToCart} className="Prbtn">
                 ADD TO CART

@@ -7,14 +7,14 @@ class ProductContainer extends Component {
   render() {
     const [store, ,] = this.props.useRecoilStore;
     const [currency, ,] = this.props.useRecoilDefaultCurrency;
-   // console.log("store", store);
+    // console.log("store", store);
     return (
       <div className="ProContainer">
         <h1>Category {store?.name}</h1>
         <section className="ListProduct">
           {store?.products?.map((data) => {
             return data?.prices?.map((_data) => {
-              if (_data.currency.symbol === currency)
+              if (_data.currency.symbol === currency) {
                 return (
                   <ProductCard
                     key={data.id}
@@ -31,6 +31,7 @@ class ProductContainer extends Component {
                     history={this.props.history}
                   />
                 );
+              } else return null;
             });
           })}
         </section>
